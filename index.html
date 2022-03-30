@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap" rel="stylesheet">
     <title>Sign-Up</title>
 </head>
 <body>
     <div class="main-container">
         <aside class="hero">
-            <img src="" alt="logo-principal" class="logo">
+            <div class="icon">
+                <div class="main-icon">
+                    <i class="fa-brands fa-wolf-pack-battalion"><span> The Wolf Page</span></i>
+                </div>
+            </div>
         </aside>
         <main class="section-form">
                 <div class="header">
@@ -18,36 +26,38 @@
                         saepe possimus labore pariatur harum facilis optio officia, error commodi alias nulla officiis id quod ut! </p>
                     <p>You Know You Want To.</p>
                 </div>
-                <div class="form-tittle">
-                    <h2>Let´s Do This</h2>
+                <div class="form-container">
+                    <div class="form-tittle">
+                        <h2>Let´s Do This</h2>
+                    </div>
+                    <form>
+                        <div class="form">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" name="first_name" id="first_name">
+    
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" name="last_name" id="last_name">
+    
+                            <label for="user_email">Email Address:</label>
+                            <input type="email" id="user_email" name="email">
+     
+                            <label for="number">Telephone Numbre:</label>
+                            <input type="number" name="number" id="number">
+    
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password">
+    
+                            <label for="password">Confirm Password:</label>
+                            <input type="password" name="password" id="password">
+                        </div>
                 </div>
-                <form>
-                    <div class="form">
-                        <label for="first_name">First Name:</label>
-                        <input type="text" name="first_name" id="first_name">
-
-                        <label for="last_name">Last Name:</label>
-                        <input type="text" name="last_name" id="last_name">
-
-                        <label for="user_email">Email Address:</label>
-                        <input type="email" id="user_email" name="email">
- 
-                        <label for="number">Telephone Numbre:</label>
-                        <input type="number" name="number" id="number">
-
-                        <label for="password">Password:</label>
-                        <input type="password" name="password" id="password">
-
-                        <label for="password">Confirm Password:</label>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    <div class="btn-container">
-                        <button type="submit">Create a Account</button>
-                        <p>Already Have an Account? <a href="#">Log In</a></p>
-                    </div>
+                <div class="btn-container">
+                    <button type="submit">Create Account</button>
+                    <p>Already Have an Account? <a href="#">Log In</a></p>
+                </div>
                 </form>
         </main>
     </div>
-    
+    <script src="https://kit.fontawesome.com/650d77dfa6.js" crossorigin="anonymous"></script>
 </body>
 </html>
